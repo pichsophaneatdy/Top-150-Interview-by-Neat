@@ -1,5 +1,5 @@
 /**
- * @param {string} s
+ * @param {string} 
  * @return {number}
  */
 var lengthOfLastWord = function(s) {
