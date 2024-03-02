@@ -4,11 +4,9 @@
  */
 var isPalindrome = function(x) {
     x = x.toString();
-    let i = 0;
     let j = x.length - 1;
-    while(i < j) {
+    for(let i = 0; i < j; i++) {
         if(x[i] !== x[j]) return false;
-        i++;
         j--;
     }
     return true;
